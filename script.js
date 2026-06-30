@@ -40,7 +40,7 @@ const totalPriceDisplay = document.getElementById('total-price');
 const whatsappBtn = document.getElementById('whatsapp-send');
 
 // Replace this with the actual WhatsApp number of the agency
-const agencyWhatsAppNumber = '201000000000'; // Example: Egypt number
+const agencyWhatsAppNumber = '201143065600'; // Egypt number
 
 function calculateTotal() {
     let total = 0;
