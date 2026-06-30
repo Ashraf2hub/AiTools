@@ -97,7 +97,7 @@ whatsappBtn.addEventListener('click', () => {
         message += "✅ " + service + "%0a";
     });
     
-    message += "%0aالإجمالي التقديري: " + total + "$%0a%0a";
+    message += "%0aالإجمالي التقديري: " + total + " جنيه%0a%0a";
     message += "برجاء التواصل معي لإتمام الاتفاق.";
     
     const whatsappUrl = `https://wa.me/${agencyWhatsAppNumber}?text=${message}`;
