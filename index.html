@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiTools - وكالة دعاية وإعلان وأتمتة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="assets/logo.png" alt="AiTools Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#calculator">حاسبة الأسعار</a></li>
+            <li><a href="#contact" class="btn-primary">تواصل معنا</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="assets/bg-video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content glass-panel">
+            <h1 class="animate-up">مستقبل الدعاية والإعلان والأتمتة</h1>
+            <p class="animate-up delay-1">نصنع هوية علامتك التجارية من الصفر، وندير عملائك بذكاء، ونصمم خطط تسويقية متكاملة.</p>
+            <a href="#calculator" class="btn-primary animate-up delay-2">احسب تكلفة مشروعك</a>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-title">
+            <h2>خدماتنا الاحترافية</h2>
+            <p>حلول متكاملة تناسب جميع الأنشطة التجارية</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-video"></i>
+                <h3>تصوير ريلز وإعلانات</h3>
+                <p>إنتاج محتوى فيديو قصير وجذاب لمنصات التواصل الاجتماعي يزيد من تفاعل جمهورك.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>خطط تسويقية</h3>
+                <p>استراتيجيات مدروسة لاستهداف جمهورك بدقة وتحقيق أعلى عائد على الاستثمار (ROI).</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-headset"></i>
+                <h3>تنظيم خدمة العملاء</h3>
+                <p>إدارة احترافية للرد على استفسارات العملاء على مدار الساعة.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>تصميم هوية العلامة التجارية</h3>
+                <p>بناء هوية بصرية كاملة تميزك عن المنافسين (لوجو، ألوان، خطوط).</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-robot"></i>
+                <h3>أتمتة الأعمال (Automation)</h3>
+                <p>برمجة روبوتات وأنظمة أتمتة للمطاعم، العيادات، الصيدليات، السوبر ماركت والبراندات الكبيرة لتسهيل العمليات.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="section-title">
+            <h2>حاسبة الأسعار التفاعلية</h2>
+            <p>اختر الخدمات التي تحتاجها وسنقوم بحساب التكلفة التقديرية فوراً</p>
+        </div>
+        <div class="calculator-container glass-panel">
+            <form id="price-calculator">
+                
+                <div class="calc-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="service" value="300" data-name="تصوير ريلز (باقة أساسية)">
+                        <span class="checkmark"></span>
+                        تصوير ريلز دعائية (باقة أساسية) - 300$
+                    </label>
+                </div>
+
+                <div class="calc-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="service" value="450" data-name="خطة تسويقية شاملة">
+                        <span class="checkmark"></span>
+                        خطة تسويقية شاملة (شهرياً) - 450$
+                    </label>
+                </div>
+
+                <div class="calc-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="service" value="250" data-name="إدارة خدمة العملاء">
+                        <span class="checkmark"></span>
+                        إدارة وتنظيم الرد على العملاء - 250$
+                    </label>
+                </div>
+
+                <div class="calc-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="service" value="500" data-name="هوية بصرية كاملة">
+                        <span class="checkmark"></span>
+                        تصميم هوية بصرية متكاملة (من الصفر) - 500$
+                    </label>
+                </div>
+
+                <div class="calc-group">
+                    <label class="checkbox-container">
+                        <input type="checkbox" name="service" value="800" data-name="أتمتة أعمال متكاملة">
+                        <span class="checkmark"></span>
+                        نظام أتمتة شامل للشركات / العيادات - 800$
+                    </label>
+                </div>
+
+                <div class="total-price-display">
+                    <h3>الإجمالي التقديري: <span id="total-price">0</span> $</h3>
+                </div>
+
+                <button type="button" id="whatsapp-send" class="btn-primary w-100">
+                    <i class="fab fa-whatsapp"></i> أرسل الطلب عبر واتساب
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="AiTools Logo" class="footer-logo-img">
+                <p>شريكك الذكي للنجاح الرقمي.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 جميع الحقوق محفوظة لوكالة AiTools</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/201000000000" class="floating-whatsapp" target="_blank" title="تواصل معنا">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
